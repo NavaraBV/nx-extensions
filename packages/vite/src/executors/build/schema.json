@@ -41,6 +41,10 @@
     "outDir": {
       "type": "string",
       "description": "Path to the build output directory"
+    },
+    "ssr": {
+      "type": "string",
+      "description": "Path to the the SSR entry file"
     }
   },
   "required": []

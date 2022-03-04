@@ -55,6 +55,7 @@ export default async function runExecutor(
         rollupOptions: {
           plugins: [replaceFiles(options.fileReplacements)],
         },
+        ...(options.ssr && {ssr: joinPathFragments(`${context.root}/${options.ssr}`)})
       },
       configFile:
         options.configFile === '@nxext/vite/plugins/vite'

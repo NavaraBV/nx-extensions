@@ -52,3 +52,9 @@ The path to vite.config.js for the framework.
 Type: `string`
 
 Path to the build output directory
+
+### ssr
+
+Type: `string`
+
+Path to the the SSR entry file
